@@ -9,10 +9,11 @@
 }
 body {
  font-family: 'Courier New', monospace;
- background: url("hatter.png");
- background-repeat: no-repeat;
- background-size: cover;
- background-color: red;
+  background: url("hatter.png");
+  background-repeat: repeat;
+  background-size: fill;
+  background-color: grey;
+
  
 }
 a {
