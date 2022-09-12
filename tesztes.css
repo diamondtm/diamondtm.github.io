@@ -10,6 +10,7 @@
 body {
  font-family: 'Courier New', monospace;
  background-color: #009086;
+ 
 }
 a {
  text-decoration: none;
@@ -57,10 +58,10 @@ li {
 }	
 .logo {
  position: relative;
- font-size: 28px;
+ font-size: 40px;
  text-align: left;
- min-width: 200px;
- width: 200px;
+ min-width: 300px;
+ width: 300px;
 
 }
 
@@ -116,7 +117,7 @@ nav{
  display: none;
  border-radius: 8px;
  right: 0px;
- top: 63px;
+ top: 60.5px;
  border-top-left-radius: 0px;	
  border-top-right-radius: 0px;
  animation: growDown 300ms ease-in-out forwards 
