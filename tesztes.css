@@ -23,7 +23,7 @@ li {
 /*Logo forgasa*/
 .load{
 	
-	animation: animate 13s alternate infinite;
+	animation: animate 8s alternate infinite;
 }
 	@keyframes animate{
 		0%{
