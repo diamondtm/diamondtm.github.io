@@ -13,7 +13,7 @@ body {
   background-repeat: repeat-y;
   background-size: 130%;
   background-color: grey;
-
+ 
  
 }
 a {
@@ -180,7 +180,8 @@ nav{
 	backface-visibility: hidden;
 	background-color: grey;
 	color: #333;
-	border-radius: 10px;
+	border-radius: 20%;
+	
 }
 .hatlap{
 	position: absolute;
