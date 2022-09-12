@@ -183,7 +183,7 @@ nav{
 	font-size: 22px;
 	
 	width: 120%;
-	height: 120%;
+	height: 100%;
 	backface-visibility: hidden;
 	background-color: #F0FFFF;
 	color: #333;
