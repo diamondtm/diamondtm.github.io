@@ -35,9 +35,9 @@
 <h1> Ez még egyelöre semmi, de lehetne írni bele kisebb infókat</h1>
 <h2> Járművek ponton nézd meg, szerinted?</h2>
 <form name="calc">
-<table><tr><td>Szam1: </td><td><input type="text" name="txtnum1"></td><td><input type="button" value="+" onclick="Osszeadas()"></td></tr>
-<tr><td>Szam2:</td><td><input type="text" name="txtnum2"></td><td><input type="button" value="-" onclick="Kivonas()"></td></tr>
-<tr><td>Eredmeny:</td><td><input type="text" name="txtres"></td><td><input type="button" value="*" onclick="Szorzas()"></td><tr>
+<table><tr><td>Szam1: </td><td><input type="text" name="szam1"></td><td><input type="button" value="+" onclick="Osszeadas()"></td><td><input type="button" value="/" onclick="Osztas()" ></td></tr>
+<tr><td>Szam2:</td><td><input type="text" name="szam2"></td><td><input type="button" value="-" onclick="Kivonas()" ></td></tr>
+<tr><td>Eredmeny:</td><td><input type="text" name="eredmeny"></td><td><input type="button" value="*" onclick="Szorzas()" ></td><tr>
   
 </form>
 </table>
@@ -45,26 +45,34 @@
 	function Osszeadas()
 	{
 		var num1, num2, res;
-		num1=Number(document.calc.txtnum1.value);
-		num2=Number(document.calc.txtnum2.value);
+		num1=Number(document.calc.szam1.value);
+		num2=Number(document.calc.szam2.value);
 		res = num1+num2;
-		document.calc.txtres.value=res;
+		document.calc.eredmeny.value=res;
 	}
 	function Kivonas()
 	{
 		var num1, num2, res;
-		num1=Number(document.calc.txtnum1.value);
-		num2=Number(document.calc.txtnum2.value);
+		num1=Number(document.calc.szam1.value);
+		num2=Number(document.calc.szam2.value);
 		res = num1-num2;
-		document.calc.txtres.value=res;
+		document.calc.eredmeny.value=res;
 	}
 	function Szorzas()
 	{
 		var num1, num2, res;
-		num1=Number(document.calc.txtnum1.value);
-		num2=Number(document.calc.txtnum2.value);
+		num1=Number(document.calc.szam1.value);
+		num2=Number(document.calc.szam2.value);
 		res = num1*num2;
-		document.calc.txtres.value=res;
+		document.calc.eredmeny.value=res;
+	}
+	function Osztas()
+	{
+		var num1, num2, res;
+		num1=Number(document.calc.szam1.value);
+		num2=Number(document.calc.szam2.value);
+		res = num1/num2;
+		document.calc.eredmeny.value=res;
 	}
 </script>
 </body>
