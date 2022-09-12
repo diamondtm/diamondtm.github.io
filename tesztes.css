@@ -12,6 +12,7 @@ body {
  background: url("hatter.png");
  background-repeat: no-repeat;
  background-size: cover;
+ background-color: red;
  
 }
 a {
@@ -203,6 +204,7 @@ height: 100%;
 
 }	
 .tarolo {
-	width : 100%;
-	height: 100%;
+	width : auto;
+	height: auto;
+	
 }
