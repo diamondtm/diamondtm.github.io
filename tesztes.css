@@ -80,31 +80,127 @@ nav{
  justify-content: space-between;
  background-color: #36c5ff;
  color: #fff;
- border-radius: 10px;
 
- min-width:1300px;
- height: 90px;
+ border-radius: 10px;
+ 
 }
 
 .menu {
  position: relative;
  display: flex;
  gap: 1em;
- font-size: 20px;
+
  max-width: 1000px;
 
  margin-left:auto;
  margin-right:0px;
 }
+
+@media screen and (min-width: 1px){
+	div.menu{
+		font-size: 18px;
+	}
+	ul.dropdown{
+		 top: 60px;
+	}
+	ul.dropdown li{
+		 width: 200px;
+	}
+	div.menu li{
+		margin-left:2%;
+		margin-right: 2%;
+	}
+	nav{
+		min-width: 1300px;
+	}
+}
+@media screen and (min-width: 800px){
+	div.menu{
+		font-size: 18px;
+	}
+	ul.dropdown{
+		 top: 60px;
+	}
+	ul.dropdown li{
+		 width: 200px;
+	}
+	div.menu li{
+		margin-left:5%;
+		margin-right: 5%;
+	}
+	nav{
+		min-width: 1300px;
+	}
+}
+@media screen and (min-width: 1000px){
+	div.menu{
+		font-size: 18px;
+	}
+	ul.dropdown{
+		 top: 60px;
+	}
+	ul.dropdown li{
+		 width: 200px;
+	}
+}
+@media screen and (min-width: 1300px){
+	div.menu{
+		font-size: 18px;
+	}
+	ul.dropdown{
+		 top: 60px;
+	}
+	ul.dropdown li{
+		 width: 200px;
+	}
+}
+@media screen and (min-width: 1600px){
+	div.menu{
+		font-size: 22px;
+	}
+	ul.dropdown{
+		 top: 65px;
+	}
+	ul.dropdown li{
+		 width: 230px;
+	}
+}
+@media screen and (min-width: 1700px){
+	div.menu{
+		font-size: 28px;
+	}
+	ul.dropdown{
+		 top: 72px;
+	}
+	ul.dropdown li{
+		 width: 240px;
+	}
+}
+@media screen and (min-width: 2000px){
+	div.menu{
+		font-size: 35px;
+	}
+	ul.dropdown{
+		 top: 78px;
+	}
+	ul.dropdown li{
+		 width: 300px;
+	}
+}
+@media screen and (min-width: 1px){
+	div.menu li{
+		margin-left:auto;
+		margin-right: 30px
+	}
+}
 .menu li {
  padding: 20px 25px;
- margin-left:auto;
- margin-right: 30px;
+
 }
 .menu li:hover {
  background-color: #fff6;
  border-radius: 30px;
- transition: 1s ease;
+ transition: 0.5s ease;
 }
 
 /*Dropdown menuhoz a kodok*/
@@ -121,14 +217,13 @@ nav{
  display: none;
  border-radius: 15px;
  right: 0px;
- top: 63px;
  border-top-right-radius: 0px;
  animation: growDown 300ms ease-in-out forwards 
 }
 .dropdown li {
  margin-top: 10px;
  padding:10px;
- width: 200px;
+
  text-align: center;
 }
 .dropdown li:hover {
@@ -137,6 +232,15 @@ nav{
 }
 .contact:hover .dropdown {
  display: flex;
+}
+.tarolo {
+	position: relative;
+	width : 100%;
+	height: 100%;
+	margin-top: auto;
+	margin-left: auto;
+	bottom: 0%;
+	
 }
 /*kartya forgatas*/
 /*kartya meretei*/
@@ -152,8 +256,8 @@ nav{
 	}
 .container {
 	position: relative;
-	width: 250px;
-	height: 200px;
+	width: 300px;
+	height: 280px;
 	margin-right: auto;
 	margin-left: auto;
 	margin-left: 10%;
@@ -163,7 +267,7 @@ nav{
 .card{
 	
 	position: relative;
-	width: 250px;
+	width: 100%;
 	height: 100%;
 	transform-style: preserve-3d;
 	transition: all 0.5s ease;
@@ -198,15 +302,14 @@ nav{
 	border-radius: 10px;
 
 }
-
-
-
 .hatlap table{
 text-align: center; 
 width: 100%; 
 height: 100%;
 
 }	
+
+/*Szamologep*/
 .szgep p{
 	width: 70px;
 	height: 70px;
@@ -222,15 +325,7 @@ height: 100%;
  display: flex;
  z-index: 1;
 }
-.tarolo {
-	position: relative;
-	width : 100%;
-	height: 100%;
-	margin-top: auto;
-	margin-left: auto;
-	bottom: 0%;
-	
-}
+
 .szamologep{
 	background-color: #36c5ff;
 	display: none;
