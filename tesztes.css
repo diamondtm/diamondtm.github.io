@@ -81,7 +81,8 @@ nav{
  background-color: #36c5ff;
  color: #fff;
  border-radius: 10px;
- min-width: 1100px;
+
+ min-width:1300px;
  height: 90px;
 }
 
@@ -207,7 +208,9 @@ height: 100%;
 
 }	
 .tarolo {
-	width : auto;
-	height: auto;
-	
+	width : 100%;
+	height: 100%;
+	background-color: green;
+	margin-top: auto;
+	margin-bottom: 30px;
 }
