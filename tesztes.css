@@ -104,7 +104,7 @@ nav{
 		 top: 60px;
 	}
 	ul.dropdown li{
-		 width: 200px;
+		  width: 300px;
 	}
 	div.menu li{
 		margin-left:2%;
@@ -122,7 +122,7 @@ nav{
 		 top: 60px;
 	}
 	ul.dropdown li{
-		 width: 200px;
+		  width: 300px;
 	}
 	div.menu li{
 		margin-left:5%;
@@ -140,7 +140,7 @@ nav{
 		 top: 60px;
 	}
 	ul.dropdown li{
-		 width: 200px;
+		 width: 300px;
 	}
 }
 @media screen and (min-width: 1300px){
@@ -151,7 +151,7 @@ nav{
 		 top: 60px;
 	}
 	ul.dropdown li{
-		 width: 200px;
+		  width: 400px;
 	}
 }
 @media screen and (min-width: 1600px){
@@ -162,7 +162,7 @@ nav{
 		 top: 65px;
 	}
 	ul.dropdown li{
-		 width: 230px;
+		 width: 400px;
 	}
 }
 @media screen and (min-width: 1700px){
@@ -173,7 +173,7 @@ nav{
 		 top: 72px;
 	}
 	ul.dropdown li{
-		 width: 240px;
+		  width: 400px;
 	}
 }
 @media screen and (min-width: 2000px){
@@ -184,7 +184,8 @@ nav{
 		 top: 78px;
 	}
 	ul.dropdown li{
-		 width: 300px;
+		  width: 470px;
+		 
 	}
 }
 @media screen and (min-width: 1px){
@@ -195,6 +196,10 @@ nav{
 }
 .menu li {
  padding: 20px 25px;
+
+}
+.menu a {
+ padding: 20px 0px 25px;
 
 }
 .menu li:hover {
@@ -218,7 +223,7 @@ nav{
  border-radius: 15px;
  right: 0px;
  border-top-right-radius: 0px;
- animation: growDown 300ms ease-in-out forwards 
+ animation: growDown 500ms ease-in-out forwards 
 }
 .dropdown li {
  margin-top: 10px;
