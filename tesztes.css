@@ -210,8 +210,8 @@ height: 100%;
 
 }	
 .szgep p{
-	width: 3%;
-	height: 6.5%;
+	width: 70px;
+	height: 70px;
 	position: fixed;
 	border-radius: 60%;
 	background-color: none;
@@ -242,5 +242,5 @@ height: 100%;
 	position: fixed;
 	bottom: auto;
 	top: auto;
-	right: 3%;
+	right: 20px;
 }
