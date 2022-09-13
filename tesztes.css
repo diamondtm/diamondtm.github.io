@@ -11,7 +11,7 @@ body {
  font-family: 'Courier New', monospace;
   background: url("hatter.png");
   background-repeat: repeat-y;
-  background-size: 130%;
+  background-size: 140%;
   background-color: grey;
  
  
@@ -217,6 +217,8 @@ height: 100%;
 	background-color: none;
 	right: 5px;
 	z-index:1;
+	background: url("calc.png");
+	background-size: cover;
 }
 .szgep:hover .szamologep {
  display: flex;
