@@ -235,10 +235,13 @@ height: 100%;
 	background-color: #36c5ff;
 	display: none;
 	border-radius: 20px;
-	width: 300px;
-	height: 100px;
+	width: 320px;
+	height: 110px;
 	position: fixed;
 	bottom: auto;
 	top: auto;
-	right: 20px;
+	right: 25px;
+}
+.feher {
+	background-color: white;
 }
