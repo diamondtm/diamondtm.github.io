@@ -213,7 +213,7 @@ height: 100%;
 	position: fixed;
 	border-radius: 60%;
 	background-color: none;
-	right: 5px;
+	right: 6px;
 	z-index:1;
 	background: url("calc.png");
 	background-size: cover;
@@ -240,7 +240,7 @@ height: 100%;
 	position: fixed;
 	bottom: auto;
 	top: auto;
-	right: 25px;
+	right: 30px;
 }
 .feher {
 	background-color: white;
