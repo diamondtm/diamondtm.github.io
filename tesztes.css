@@ -1,17 +1,282 @@
+@media screen and (min-width: 1px){
+	.menu{
+		 font-size: 8px;
+	}
+	
+	.menu li {
+		 padding: 10px 12px;
+		 margin-left:auto;
+		 margin-right: 3px;
+	}
+	body {
+		background-repeat: repeat-y;
+	}
+	.kep{
+	position: relative;
+	min-width: 20px;
+	width: 20px;
 
+}	
+	.load img{
+	min-width: 40px;
+	width: 10px;
+	}
+	.logo {
+	 position: relative;
+	font-size: 2vw;
+	 text-align: left;
+	 min-width: 70px;
+	}
+	nav{
+	 min-width: 350px;
+	}
+	.container{
+	width: 25vw;
+	height: 20vw;
+	}
+	.container {
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+}
+	.hatlap table{
+		font-size: 2vw;
+	}
+	
+}
+@media screen and (min-width: 300px){
+	.menu{
+		 font-size: 1.5vw;
+	}
+	
+	.menu li {
+		 padding: 4px 6px;
+		 margin-left:auto;
+		 margin-right: 3px;
+	}
+	kep{
+	position: relative;
+	min-width: 100px;
+	width: 100px;
+}	
+	.load img{
+		min-width: 8vw;
+		height: 6vw;
+		
+	}	
+	.logo {
+	 position: relative;
+	 font-size: 2vw;
+	 text-align: left;
+	 min-width: 70px;
+	}
+	nav{
+	 min-width: 370px;
+	}
+	
+	.dropdown li{
+		max-width: 150px;
+		
+	}
+
+	.hatlap table{
+		font-size: 1.5vw;
+	}
+	
+	.sorban {
+	min-width: 370px;
+}
+}
+
+@media screen and (min-width: 500px){
+	.menu{
+		 font-size: 1.5vw;
+	}
+	
+	.menu li {
+		 padding: 8px 10px;
+		 margin-left:auto;
+		 margin-right: 3px;
+	}
+	kep{
+	position: relative;
+	min-width: 100px;
+	width: 100px;
+}	
+	.load img{
+		min-width: 8vw;
+		height: 6vw;
+		
+	}	
+	.logo {
+	 position: relative;
+	 font-size: 2vw;
+	 text-align: left;
+	 min-width: 90px;
+	}
+	nav{
+	 min-width: 350px;
+	}
+	
+	.hatlap table{
+		font-size: 1vw;
+	}
+	.container{
+	width: 20vw;
+	height: 17vw;
+	}
+}
+@media screen and (min-width: 800px){
+	.menu{
+		 font-size: 1.5vw;
+	}
+	
+	.menu li {
+		 padding: 8px 10px;
+		 margin-left:auto;
+		 margin-right: 3px;
+	}
+	kep{
+	position: relative;
+	min-width: 100px;
+	width: 100px;
+}	
+	.load img{
+		min-width: 8vw;
+		height: 6vw;
+		
+	}	
+	.logo {
+	 position: relative;
+	 font-size: 2vw;
+	 text-align: left;
+	 min-width: 180px;
+	}
+	/*nav{
+	 min-width: 950px;
+	}*/
+	
+	.dropdown li{
+		max-width: 300px;
+	}
+	.container{
+	width: 17vw;
+	height: 15vw;
+	}
+
+
+}
+@media screen and (max-width: 1000px){
+.dropdown{
+		top: 3.0vw;
+	}
+}
+@media screen and (min-width: 1300px){
+	.menu{
+		 font-size: 1.5vw;
+	}
+	
+	
+	.menu li {
+		 padding: 20px 25px;
+		 margin-left:auto;
+		 margin-right: 30px;
+	}
+	kep{
+	position: relative;
+	min-width: 150px;
+	width: 150px;
+}	
+	.load img{
+		min-width: 8vw;
+		height: 6vw;
+		
+	}	
+	.logo {
+	 position: relative;
+	 font-size: 2vw;
+	 text-align: left;
+	 min-width: 180px;
+	}
+	.dropdown{
+		top: 4.0vw;
+	}
+	
+}
+
+@media screen and (min-width: 3000px){
+	.menu{
+		 font-size: 1.5vw;
+	}
+	
+	
+	.menu li {
+		 padding: 20px 25px;
+		 margin-left:auto;
+		 margin-right: 30px;
+	}
+		kep{
+	position: relative;
+	min-width: 150px;
+	width: 150px;
+}	
+	.load img{
+		min-width: 8vw;
+		height: 6vw;
+		
+	}	
+	.logo {
+	 position: relative;
+	 font-size: 2vw;
+	 text-align: left;
+	 min-width: 400px;
+	}
+	.dropdown{
+		top: 3.0vw;
+	}
+	.dropdown li{
+		min-width: 1000px;
+	}
+}
+@media screen and (min-width: 5000px){
+	.menu{
+		 font-size: 70px;
+	}
+	
+	.menu li {
+		 padding: 20px 25px;
+		 margin-left:auto;
+		 margin-right: 30px;
+	}
+		kep{
+	position: relative;
+	min-width: 150px;
+	width: 150px;
+}	
+	.load img{
+		min-width: 300px;
+		height: 280px;
+	}	
+	.logo {
+	 position: relative;
+	 font-size: 80px;
+	 text-align: left;
+	 min-width: 400px;
+	}
+	.dropdown{
+		top: 2vw;
+	}
+}
 * {
  box-sizing: border-box;
 
 }
-.active{
-	background:#fff6;
-	border-radius: 30px;
-}
+
 body {
  font-family: 'Courier New', monospace;
   background: url("hatter.png");
-  background-repeat: repeat-y;
-  background-size: 140%;
+  
+  background-size: 100%;
   background-color: grey;
  
  
@@ -53,108 +318,24 @@ li {
         transform: scaleY(1)
     }
 }
-@media screen and (min-width: 1px){
-	.container{
-	width: 200px;
-	height: 150px;
-	}
-	.hatlap table{
-		font-size: 8px;
-	}
-	.menu{
-		 font-size: 18px;
-	}
-	.dropdown{
-		 top: 60px;
-	}
-	ul.dropdown li{
-		 max-width: 160px;
-	}
-}
-@media screen and (min-width: 600px){
-	.container{
-	width: 250px;
-	height: 200px;
-	}
-	.hatlap table{
-		font-size: 18px;
-	}
-}
-@media screen and (min-width: 1000px){
-	.container{
-	width: 300px;
-	height: 250px;
-	}
-	.hatlap table{
-		font-size: 20px;
-	}
-}
-@media screen and (min-width: 2000px){
-	.container{
-	width: 350px;
-	height: 300px;
-	}
-	.hatlap table{
-		font-size: 26px;
-	}
-}
-@media screen and (min-width: 3000px){
-	.container{
-	width: 450px;
-	height: 400px;
-	}
-	.hatlap table{
-		font-size: 34px;
-	}
-	.menu{
-		 font-size: 40px;
-	}
-	.dropdown{
-		 top: 80px;
-		 width: 1000px;
-	}
-	ul.dropdown li{
-		 width: 1000px;
-	}
-	.szamologep{
-	width: 620px;
-	height: 310px;
-	font-size: 50px;
-	}
-	.szamologep input{
-	width: 100px;
-	height: 80px;
-	font-size: 50px;
-	}
-}
-.kep{
-	position: relative;
-	min-width: 100px;
-	width: 100px;
 
-}	
-.logo {
- position: relative;
- font-size: 40px;
- text-align: left;
- min-width: 300px;
- width: 300px;
 
-}
+
 
 /*Navigacio*/
 .menu .contact:hover{
-background-color: #fff6;	
+background-color: #fff6;
+border-bottom-left-radius: 0px;	
 border-bottom-right-radius: 0px;
-border-bottom-left-radius: 0px;
+
 }
 
 nav{
  justify-content: space-between;
  background-color: #36c5ff;
  color: #fff;
- min-width: 1300px;
  border-radius: 10px;
+ width: 100%;
 
 }
 
@@ -162,20 +343,17 @@ nav{
  position: relative;
  display: flex;
  gap: 1em;
- max-width: 1000px;
+
+ width: 100%;
+
  margin-left:auto;
  margin-right:0px;
 }
 
-.menu li {
- padding: 20px 25px;
- margin-left:auto;
- margin-right: 30px
-}
 .menu li:hover {
  background-color: #fff6;
  border-radius: 30px;
- transition: 0.5s ease;
+ transition: 1s ease;
 }
 
 /*Dropdown menuhoz a kodok*/
@@ -184,15 +362,14 @@ nav{
  
 }
 
-
 .dropdown {
  background-color: #fff6;
  padding: 0px;
  position: absolute;
  display: none;
- border-radius: 15px;
+ border-radius: 8px;
  right: 0px;
- width: 600px;
+ 
  border-top-left-radius: 0px;	
  border-top-right-radius: 0px;
  animation: growDown 300ms ease-in-out forwards 
@@ -200,7 +377,8 @@ nav{
 .dropdown li {
  margin-top: 10px;
  padding:10px;
- 
+
+ width: 300px;
  text-align: center;
 }
 .dropdown li:hover {
@@ -208,29 +386,17 @@ nav{
  
 }
 .contact:hover .dropdown {
- display: flex;
+ display: block;
 }
-
-
-/*kartya forgatas*/
-/*kartya meretei*/
+/*Kartyak*/
 .sorban {
 	margin-top: 3%;
 	display: flex;
 	width: 100%;
 	margin-left: auto;
-	margin-bottom: 100px;
-	min-width: 1200px;
-	
-	
+	margin-bottom: 100px;	
 	}
-.container {
-	position: relative;
-	margin-right: auto;
-	margin-left: auto;
-	margin-left: 10%;
-	
-}
+
 /*elso es hatso resz*/
 .card{
 	
@@ -254,7 +420,7 @@ nav{
 	backface-visibility: hidden;
 	background-color: grey;
 	color: #333;
-	border-radius: 10px;
+	border-radius: 10%;
 	
 }
 .hatlap{
@@ -265,7 +431,7 @@ nav{
 	background-color: #F0FFFF;
 	color: #333;
 	transform: rotateY(180deg);
-	border-radius: 10px;
+	border-radius: 10%;
 }
 .hatlap table{
 text-align: center; 
@@ -273,7 +439,6 @@ width: 100%;
 height: 100%;
 
 }	
-
 /*Szamologep*/
 .szgep p{
 	width: 70px;
@@ -295,7 +460,8 @@ height: 100%;
 	background-color: #36c5ff;
 	display: none;
 	border-radius: 20px;
-	
+	width: 320px;
+	height: 110px;
 	position: fixed;
 	bottom: auto;
 	top: auto;
