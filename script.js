@@ -30,11 +30,17 @@
 		res = num1/num2;
 		document.calc.eredmeny.value=res;
 	}
-	
+	function delay(time) {
+  return new Promise(resolve => setTimeout(resolve, time));
+}
+
 var cards = document.querySelectorAll('.card');
 
 [...cards].forEach((card)=>{
   card.addEventListener( 'click', function() {
     card.classList.toggle('hatlap');
+	
+	
   });
+ /*delay(4000).then(() => card.classList.remove('hatlap'));*/
 });
