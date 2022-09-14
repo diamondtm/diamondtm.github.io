@@ -55,8 +55,8 @@ li {
 }
 @media screen and (min-width: 1px){
 	.container{
-	width: 140px;
-	height: 100px;
+	width: 200px;
+	height: 150px;
 	}
 	.hatlap table{
 		font-size: 8px;
@@ -73,15 +73,6 @@ li {
 }
 @media screen and (min-width: 600px){
 	.container{
-	width: 200px;
-	height: 150px;
-	}
-	.hatlap table{
-		font-size: 14px;
-	}
-}
-@media screen and (min-width: 1000px){
-	.container{
 	width: 250px;
 	height: 200px;
 	}
@@ -89,13 +80,22 @@ li {
 		font-size: 18px;
 	}
 }
-@media screen and (min-width: 2000px){
+@media screen and (min-width: 1000px){
 	.container{
 	width: 300px;
 	height: 250px;
 	}
 	.hatlap table{
-		font-size: 23px;
+		font-size: 20px;
+	}
+}
+@media screen and (min-width: 2000px){
+	.container{
+	width: 350px;
+	height: 300px;
+	}
+	.hatlap table{
+		font-size: 26px;
 	}
 }
 @media screen and (min-width: 3000px){
@@ -104,7 +104,7 @@ li {
 	height: 400px;
 	}
 	.hatlap table{
-		font-size: 32px;
+		font-size: 36px;
 	}
 	.menu{
 		 font-size: 40px;
