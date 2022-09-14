@@ -210,6 +210,9 @@
 	width: 18vw;
 	height: 15vw;
 	}
+	.hatlap table{
+		font-size: 1.2vw;
+	}
 	
 }
 
@@ -289,7 +292,6 @@ body {
  font-family: 'Courier New', monospace;
   background: url("hatter.png");
   background-position: fixed;
-  
   background-size: cover;
   background-color: grey;
  
@@ -432,7 +434,7 @@ nav{
 	width: 100%;
 	height: 100%;
 	backface-visibility: hidden;
-	background-color: grey;
+	background-color: #7ba8bb;
 	color: #333;
 	border-radius: 10%;
 	
