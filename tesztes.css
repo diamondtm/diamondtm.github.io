@@ -60,8 +60,8 @@
 	width: 100px;
 }	
 	.load img{
-		min-width: 8vw;
-		height: 6vw;
+		min-width: 9vw;
+		height: 7vw;
 		
 	}	
 	.logo {
@@ -86,6 +86,13 @@
 	.sorban {
 	min-width: 370px;
 }
+	.hatlap table{
+		font-size: 1.5vw;
+	}
+	.container{
+	width: 26vw;
+	height: 22vw;
+	}
 }
 
 @media screen and (min-width: 500px){
@@ -119,11 +126,11 @@
 	}
 	
 	.hatlap table{
-		font-size: 1vw;
+		font-size: 1.5vw;
 	}
 	.container{
-	width: 20vw;
-	height: 17vw;
+	width: 26vw;
+	height: 23vw;
 	}
 }
 @media screen and (min-width: 800px){
@@ -160,8 +167,8 @@
 		max-width: 300px;
 	}
 	.container{
-	width: 17vw;
-	height: 15vw;
+	width: 23vw;
+	height: 20vw;
 	}
 
 
@@ -236,6 +243,10 @@
 	}
 	.dropdown li{
 		min-width: 1000px;
+	}
+	.container{
+	width: 23vw;
+	height: 20vw;
 	}
 }
 @media screen and (min-width: 5000px){
@@ -441,8 +452,8 @@ height: 100%;
 }	
 /*Szamologep*/
 .szgep p{
-	width: 70px;
-	height: 70px;
+	width: 5vw;
+	height: 5vw;
 	position: fixed;
 	border-radius: 60%;
 	background-color: none;
