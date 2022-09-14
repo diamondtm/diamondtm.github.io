@@ -30,3 +30,11 @@
 		res = num1/num2;
 		document.calc.eredmeny.value=res;
 	}
+	
+var cards = document.querySelectorAll('.card');
+
+[...cards].forEach((card)=>{
+  card.addEventListener( 'click', function() {
+    card.classList.toggle('hatlap');
+  });
+});

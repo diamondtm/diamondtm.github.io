@@ -210,6 +210,7 @@
 	width: 18vw;
 	height: 15vw;
 	}
+	
 	.hatlap table{
 		font-size: 1.2vw;
 	}
@@ -423,11 +424,11 @@ nav{
 	transition: all 0.5s ease;
 	
 }
-.card:hover {
+/*.card:active {
 	transform: rotateY(180deg);
 
 
-}
+}*
 /*Elolap es hatlap*/
 .elolap{
 	position: absolute;
@@ -437,8 +438,10 @@ nav{
 	background-color: #7ba8bb;
 	color: #333;
 	border-radius: 10%;
+	box-shadow: 10px 10px 40px #7ba6bb;
+	}
 	
-}
+
 .hatlap{
 	position: absolute;
 	width: 100%;
