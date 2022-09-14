@@ -8,9 +8,7 @@
 		 margin-left:auto;
 		 margin-right: 3px;
 	}
-	body {
-		background-repeat: repeat-y;
-	}
+	
 	.kep{
 	position: relative;
 	min-width: 20px;
@@ -129,8 +127,8 @@
 		font-size: 1.5vw;
 	}
 	.container{
-	width: 26vw;
-	height: 23vw;
+	width: 22vw;
+	height: 17vw;
 	}
 }
 @media screen and (min-width: 800px){
@@ -167,8 +165,8 @@
 		max-width: 300px;
 	}
 	.container{
-	width: 23vw;
-	height: 20vw;
+	width: 20vw;
+	height: 17vw;
 	}
 
 
@@ -208,6 +206,10 @@
 	.dropdown{
 		top: 4.0vw;
 	}
+	.container{
+	width: 18vw;
+	height: 15vw;
+	}
 	
 }
 
@@ -245,8 +247,8 @@
 		min-width: 1000px;
 	}
 	.container{
-	width: 23vw;
-	height: 20vw;
+	width: 18vw;
+	height: 15vw;
 	}
 }
 @media screen and (min-width: 5000px){
@@ -286,8 +288,9 @@
 body {
  font-family: 'Courier New', monospace;
   background: url("hatter.png");
+  background-position: fixed;
   
-  background-size: 100%;
+  background-size: cover;
   background-color: grey;
  
  
