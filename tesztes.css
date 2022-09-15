@@ -388,7 +388,7 @@ nav{
  display: none;
  border-radius: 8px;
  right: 0px;
- 
+  opacity: .9;
  border-top-left-radius: 0px;	
  border-top-right-radius: 0px;
  animation: growDown 300ms ease-in-out forwards 
@@ -490,4 +490,9 @@ height: 100%;
 }
 .feher {
 	background-color: white;
+}
+.active {
+	 background-color: #fff6;
+	  border-radius: 30px;
+	 
 }
