@@ -216,7 +216,11 @@
 	}
 	
 }
-
+@media screen and (min-width: 1900px){
+.dropdown{
+		top: 3.0vw;
+	}
+}
 @media screen and (min-width: 3000px){
 	.menu{
 		 font-size: 1.5vw;
