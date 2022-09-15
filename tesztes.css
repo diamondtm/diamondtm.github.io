@@ -38,7 +38,23 @@
 	.hatlap table{
 		font-size: 2vw;
 	}
-	
+	.indextartalom h1 {
+	font-size: 3vw;
+	color: white;
+	position: relative;
+}
+.indextartalom h2 {
+	font-size: 2vw;
+	color: white;
+	position: relative;
+}
+.indextartalom li {
+	font-size: 2vw;
+	color: white;
+	margin-bottom: 2%;
+	position: relative;
+	list-style: square;
+}
 }
 @media screen and (min-width: 300px){
 	.menu{
@@ -212,7 +228,23 @@
 	.hatlap table{
 		font-size: 1.2vw;
 	}
-	
+		.indextartalom h1 {
+	font-size: 2vw;
+	color: white;
+	position: relative;
+}
+.indextartalom h2 {
+	font-size: 1vw;
+	color: white;
+	position: relative;
+}
+.indextartalom li {
+	font-size: 1vw;
+	color: white;
+	margin-bottom: 2%;
+	position: relative;
+	list-style: square;
+}
 }
 @media screen and (min-width: 1900px){
 .dropdown{
@@ -289,6 +321,7 @@
 	.dropdown{
 		top: 2vw;
 	}
+	
 }
 * {
  box-sizing: border-box;
@@ -519,23 +552,7 @@ height: 100%;
 	position: relative;
 	
 }
-.indextartalom h1 {
-	font-size: 2.5vw;
-	color: white;
-	position: relative;
-}
-.indextartalom h2 {
-	font-size: 1vw;
-	color: white;
-	position: relative;
-}
-.indextartalom li {
-	font-size: 1vw;
-	color: white;
-	margin-bottom: 2%;
-	position: relative;
-	list-style: square;
-}
+
 .indextartalom a {
 	color: red;
 }
@@ -561,8 +578,8 @@ height: 100%;
 	visibility: visible;
 	font-size: 1.5vw;
 	color: white;
-	width: 90%;
-	height: 90%;
+	width: 100%;
+	height: 100%;
 	left: auto;
 	right: auto;
 	text-align: center;
@@ -572,3 +589,15 @@ height: 100%;
 .tuning table.yep td {
 border: 1px solid white;
 }
+
+.indextartalom h1 {
+	color: white;
+}
+.indextartalom h2 {
+	color: white;
+}
+.indextartalom li {
+	color: white;
+	list-style: square;
+}
+
