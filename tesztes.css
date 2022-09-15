@@ -31,8 +31,6 @@
 	.container{
 	width: 25vw;
 	height: 20vw;
-	}
-	.container {
 	position: relative;
 	margin-right: auto;
 	margin-left: auto;
@@ -226,7 +224,6 @@
 		 font-size: 1.5vw;
 	}
 	
-	
 	.menu li {
 		 padding: 20px 25px;
 		 margin-left:auto;
@@ -325,7 +322,7 @@ li {
 		100%{
 			transform:rotateY(0deg);
 		}
-	}
+}
 	
 	@keyframes growDown {
     0% {
@@ -384,7 +381,8 @@ nav{
 }
 
 .dropdown {
- background-color: #fff6;
+	/*#fff6*/
+ background-color: #8fdfff;
  padding: 0px;
  position: absolute;
  display: none;
