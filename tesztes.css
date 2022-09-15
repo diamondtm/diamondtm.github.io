@@ -205,8 +205,8 @@
 		top: 4.0vw;
 	}
 	.container{
-	width: 18vw;
-	height: 15vw;
+	width: 16vw;
+	height: 13vw;
 	}
 	
 	.hatlap table{
@@ -252,8 +252,8 @@
 		min-width: 1000px;
 	}
 	.container{
-	width: 18vw;
-	height: 15vw;
+	width: 15vw;
+	height: 12vw;
 	}
 }
 @media screen and (min-width: 5000px){
