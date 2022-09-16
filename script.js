@@ -49,3 +49,6 @@ function myFunction() {
    var tabi = document.getElementById('tablas');
    tabi.classList.toggle('yep');
 };
+
+
+
