@@ -440,15 +440,18 @@ nav{
  z-index: 3;
 }
 .dropdown li {
- margin-top: 10px;
+ margin-top: 5%;
  padding:10px;
-
  width: 300px;
  text-align: center;
 }
 .dropdown li:hover {
  background: #4c9e9e;
  
+}
+.dropdownlist{
+
+	padding-bottom: 5%;
 }
 .contact:hover .dropdown {
  display: block;
@@ -621,8 +624,4 @@ background: black;
 }
 .venom{
 	color: lightgreen;
-}
-.dropdownlist{
-	padding-top: 5%;
-	
 }
