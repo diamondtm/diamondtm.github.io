@@ -592,12 +592,16 @@ background-color: red;
 	position: relative;
 	
 }
+.tuning table.yep .szinez:hover td{
+	background-color: #0074a3;
+	
+}
 .tuning table.yep .nevek td{
 	background: #36c5ff;
 }
 .tuning table.yep td {
 border-bottom: 1px solid white;
-background: black;
+
 }
 
 .indextartalom h1 {
