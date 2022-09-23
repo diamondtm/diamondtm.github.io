@@ -38,10 +38,11 @@
 </nav>
 <div class="szgep">
 <p></p>
+
 <form name="calc">
-<table class="szamologep"><tr><td>Szam1: </td><td><input type="text" name="szam1"></td><td><input type="button" value="+" onclick="Osszeadas()"></td><td><input type="button" value="/" onclick="Osztas()" ></td></tr>
-<tr><td>Szam2:</td><td><input type="text" name="szam2"></td><td><input type="button" value="-" onclick="Kivonas()" ></td></tr>
-<tr><td>Eredmeny:</td><td class="feher"><output type="text" name="eredmeny"></td><td><input type="button" value="*" onclick="Szorzas()" ></td><tr> 
+<table class="szamologep"><tr><td>Szam1: </td><td><input type="text" name="szam1" class="szamos"></td><td><input type="button" value="+" onclick="Osszeadas()"></td><td><input type="button" value="/" onclick="Osztas()" ></td></tr>
+<tr><td>Szam2:</td><td><input type="text" name="szam2" class="szamos"></td><td><input type="button" value="-" onclick="Kivonas()" ></td></tr>
+<tr><td>Eredmeny:</td><td class="feher"><output type="text" name="eredmeny" class="szamos"></td><td><input type="button" value="*" onclick="Szorzas()" ></td><tr> 
 </table>
 </form>
 </div>
@@ -52,6 +53,7 @@
 <p style="color: white; font-size: 1vw;">Hiba: Firefoxon kívüli böngészőkben 4mp-et várni kell a kártya visszafordulására.</p>
 <p style="color: white; font-size: 1vw;">Ha az autó hátulján piros a kártya, a jármű nem bérelhető.</p>
 <div class = "sorban"><div class = "container"><div class = "card">
+<!-- -------------------------------      Passat       ------------------------------->
 <div class = "elolap" > <h1>Passat</h1> </div>
 <div class = "hatlap">  
 <table >
@@ -62,6 +64,7 @@
 </table>
 </div></div></div>
 <div class = "container"><div class = "card">
+<!-- -------------------------------      Reefer       ------------------------------->
 <div class = "elolap"> <h1>Reefer</h1> </div>
 <div class = "hatlap">
 <table>
@@ -73,6 +76,7 @@
 </div></div></div>
 <div class = "container">
 <div class = "card">
+<!-- -------------------------------      Sprinter       ------------------------------->
 <div class = "elolap"> <h1>Sprinter</h1> </div>
 <div class = "hatlap">
 <table>
@@ -84,6 +88,7 @@
 </div></div></div></div>
 
 <div class = "sorban"><div class = "container"><div class = "card">
+<!-- -------------------------------      Buga       ------------------------------->
 <div class = "elolap"><img src="autok/buga.png" alt="Bugatti" style="width: 100%"></div>
 <div class = "hatlap">  
 <table>
@@ -94,8 +99,9 @@
 </table>
 </div></div></div>
 <div class = "container"><div class = "card">
-<div class = "elolap"> <h1>Bugatti(RED)</h1> </div>
-<div class = "hatlap red" >
+<!-- -------------------------------      RED       ------------------------------->
+<div class = "elolap"> <h1>Bugatti(RED) <img src="autok/nop.png" alt="WRX" style="width: 30%"></h1> </div>
+<div class = "hatlap" >
 <table>
 <tr><td>Napok</td><td>Ára</td><td>Kaució</td></tr>
 <tr><td>1 nap</td><td>30 000$</td><td>100 000$</td></tr>
@@ -104,6 +110,7 @@
 </table>
 </div></div></div>
 <div class = "container"><div class = "card">
+<!-- -------------------------------      WRX       ------------------------------->
 <div class = "elolap"><img src="autok/wrx.png" alt="WRX" style="width: 100%"></div>
 <div class = "hatlap">
 <table>
@@ -114,8 +121,9 @@
 </table>
 </div></div></div></div>
 <div class = "sorban"><div class = "container"><div class = "card">
+<!-- -------------------------------      RAPTOR       ------------------------------->
 <div class = "elolap"> <h1>F150 Raptor</h1> </div>
-<div class = "hatlap red">  
+<div class = "hatlap">  
 <table>
 <tr><td>Napok</td><td>Ára</td><td>Kaució</td></tr>
 <tr><td>1 nap</td><td>27 500$</td><td>100 000$</td></tr>
@@ -124,6 +132,7 @@
 </table>
 </div></div></div>
 <div class = "container"><div class = "card">
+<!-- -------------------------------      VONTATÓ       ------------------------------->
 <div class = "elolap"> <img src="autok/vonti.png" alt="r8" style="width: 100%"> </div>
 <div class = "hatlap">
 <table>
@@ -134,8 +143,9 @@
 </table>
 </div></div></div>
 <div class = "container"><div class = "card">
-<div class = "elolap"><img src="autok/r8.png" alt="r8" style="width: 100%"></div>
-<div class = "hatlap red" >
+<!-- -------------------------------      R8       ------------------------------->
+<div class = "elolap"><img src="autok/r8nop.png" alt="r8" style="width: 100%"></div>
+<div class = "hatlap" >
 <table>
 <tr><td>Napok</td><td>Ára</td><td>Kaució</td></tr>
 <tr><td>1 nap</td><td>25 000$</td><td>100 000$</td></tr>
@@ -144,8 +154,9 @@
 </table>
 </div></div></div></div>
 <div class = "sorban"><div class = "container"><div class = "card">
+<!-- -------------------------------      P1       ------------------------------->
 <div class = "elolap"> <h1>McLaren P1</h1> </div>
-<div class = "hatlap red" >  
+<div class = "hatlap" >  
 <table>
 <tr><td>Napok</td><td>Ára</td><td>Kaució</td></tr>
 <tr><td>1 nap</td><td>32 500$</td><td>100 000$</td></tr>
@@ -154,8 +165,9 @@
 </table>
 </div></div></div>
 <div class = "container"><div class = "card">
+<!-- -------------------------------      Heli       ------------------------------->
 <div class = "elolap"> <img src="autok/heli.png" alt="heli" style="width: 100%"> </div>
-<div class = "hatlap red" >  
+<div class = "hatlap" >  
 <table>
 <tr><td>Napok</td><td>Ára</td><td>Kaució</td></tr>
 <tr><td>1 nap</td><td>24 000$</td><td>100 000$</td></tr>
@@ -164,8 +176,9 @@
 </table>
 </div></div></div>
 <div class = "container"><div class = "card">
-<div class = "elolap"> <img src="autok/m4.png" alt="M4" style="width: 100%"> </div>
-<div class = "hatlap" style="background-color: red;">
+<!-- -------------------------------      M4       ------------------------------->
+<div class = "elolap"> <img src="autok/m4nop.png" alt="M4" style="width: 100%"> </div>
+<div class = "hatlap">
 <table>
 <tr><td>Napok</td><td>Ára</td><td>Kaució</td></tr>
 <tr><td>1 nap</td><td>26 800$</td><td>100 000$</td></tr>

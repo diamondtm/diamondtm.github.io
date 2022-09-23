@@ -536,13 +536,27 @@ background-color: red;
 .szamologep{
 	background-color: #36c5ff;
 	display: none;
-	border-radius: 20px;
-	width: 320px;
-	height: 110px;
+	border-radius: 10%;
+	width: auto;
+	height: auto;
+	font-size: 1vw;
 	position: fixed;
 	bottom: auto;
 	top: auto;
 	right: 30px;
+}
+.szamologep input.szamos{
+	width: 3vw;
+	height: 1.5vw;
+	min-width: 30px;
+	min-height: 10px;
+}
+.szamologep input{
+	width: 1.5vw;
+	height: 1.5vw;
+	font-size: 0.5vw;
+	min-width: 30px;
+	min-height: 10px;
 }
 .feher {
 	background-color: white;
