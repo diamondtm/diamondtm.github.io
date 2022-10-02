@@ -1,7 +1,6 @@
 @media screen and (min-width: 1px){
 	.menu{
-		 font-size: 2vw;
-		 
+		 font-size: 8px;
 	}
 	
 	.menu li {
@@ -9,24 +8,16 @@
 		 margin-left:auto;
 		 margin-right: 3px;
 	}
-	.dropdown{
-		top: 7.0vw;
-		width: 25vw;
-	}
-	.dropdown .dropdownlist{
-		font-size: 1.0vw;
-		
-	}
+	
 	.kep{
 	position: relative;
 	min-width: 20px;
 	width: 20px;
 
-	}	
+}	
 	.load img{
-		min-width: 8vw;
-		height: 6vw;
-		
+	min-width: 40px;
+	width: 10px;
 	}
 	.logo {
 	 position: relative;
@@ -35,65 +26,309 @@
 	 min-width: 70px;
 	}
 	nav{
-	 min-width: 400px;
+	 min-width: 350px;
 	}
 	.container{
 	width: 25vw;
-	max-width: 1000px;
 	height: 20vw;
-	max-height: 900px;
 	position: relative;
 	margin-right: auto;
 	margin-left: auto;
-	}
+}
 	.hatlap table{
-		font-size: 1vw;
+		font-size: 2vw;
 	}
 	.indextartalom h1 {
 	font-size: 3vw;
 	color: white;
 	position: relative;
+}
+.indextartalom h2 {
+	font-size: 2vw;
+	color: white;
+	position: relative;
+}
+.indextartalom li {
+	font-size: 2vw;
+	color: white;
+	margin-bottom: 2%;
+	position: relative;
+	list-style: square;
+}
+}
+@media screen and (min-width: 300px){
+	.menu{
+		 font-size: 1.5vw;
 	}
-	.indextartalom h2 {
-		font-size: 2vw;
-		color: white;
-		position: relative;
+	
+	.menu li {
+		 padding: 4px 6px;
+		 margin-left:auto;
+		 margin-right: 3px;
 	}
-	.indextartalom li {
-		font-size: 2vw;
-		color: white;
-		margin-bottom: 2%;
-		position: relative;
-		list-style: square;
+	kep{
+	position: relative;
+	min-width: 100px;
+	width: 100px;
+}	
+	.load img{
+		min-width: 9vw;
+		height: 7vw;
+		
+	}	
+	.logo {
+	 position: relative;
+	 font-size: 2vw;
+	 text-align: left;
+	 min-width: 70px;
+	}
+	nav{
+	 min-width: 370px;
+	}
+	
+	.dropdown li{
+		max-width: 150px;
+		
+	}
+
+	.hatlap table{
+		font-size: 1.5vw;
+	}
+	
+	.sorban {
+	min-width: 370px;
+}
+	.hatlap table{
+		font-size: 1.5vw;
+	}
+	.container{
+	width: 26vw;
+	height: 22vw;
 	}
 }
-@media screen and (min-width: 400px){
-		.dropdown{
-		top: 6.0vw;
-	}
-}
+
 @media screen and (min-width: 500px){
-		.dropdown{
-		top: 5.0vw;
+	.menu{
+		 font-size: 1.5vw;
+	}
+	
+	.menu li {
+		 padding: 8px 10px;
+		 margin-left:auto;
+		 margin-right: 3px;
+	}
+	kep{
+	position: relative;
+	min-width: 100px;
+	width: 100px;
+}	
+	.load img{
+		min-width: 8vw;
+		height: 6vw;
+		
+	}	
+	.logo {
+	 position: relative;
+	 font-size: 2vw;
+	 text-align: left;
+	 min-width: 90px;
+	}
+	nav{
+	 min-width: 350px;
+	}
+	
+	.hatlap table{
+		font-size: 1.5vw;
+	}
+	.container{
+	width: 22vw;
+	height: 17vw;
 	}
 }
-@media screen and (min-width: 700px){
-		.dropdown{
-		top: 4.0vw;
+@media screen and (min-width: 800px){
+	.menu{
+		 font-size: 1.5vw;
 	}
+	
+	.menu li {
+		 padding: 8px 10px;
+		 margin-left:auto;
+		 margin-right: 3px;
+	}
+	kep{
+	position: relative;
+	min-width: 100px;
+	width: 100px;
+}	
+	.load img{
+		min-width: 8vw;
+		height: 6vw;
+		
+	}	
+	.logo {
+	 position: relative;
+	 font-size: 2vw;
+	 text-align: left;
+	 min-width: 180px;
+	}
+	/*nav{
+	 min-width: 950px;
+	}*/
+	
+	.dropdown li{
+		max-width: 300px;
+	}
+	.container{
+	width: 20vw;
+	height: 17vw;
+	}
+
+
 }
-@media screen and (min-width: 1100px){
-		.dropdown{
+@media screen and (max-width: 1000px){
+.dropdown{
 		top: 3.0vw;
 	}
 }
-@media screen and (min-width: 2700px){
+@media screen and (min-width: 1300px){
+	.menu{
+		 font-size: 1.5vw;
+	}
+	
+	
+	.menu li {
+		 padding: 20px 25px;
+		 margin-left:auto;
+		 margin-right: 30px;
+	}
+	kep{
+	position: relative;
+	min-width: 150px;
+	width: 150px;
+}	
+	.load img{
+		min-width: 8vw;
+		height: 6vw;
+		
+	}	
+	.logo {
+	 position: relative;
+	 font-size: 2vw;
+	 text-align: left;
+	 min-width: 180px;
+	}
+	.dropdown{
+		top: 3.0vw;
+	}
+	.container{
+	width: 16vw;
+	height: 13vw;
+	}
+	
+	.hatlap table{
+		font-size: 1.2vw;
+	}
+		.indextartalom h1 {
+	font-size: 2vw;
+	color: white;
+	position: relative;
+}
+.indextartalom h2 {
+	font-size: 1vw;
+	color: white;
+	position: relative;
+}
+.indextartalom li {
+	font-size: 1vw;
+	color: white;
+	margin-bottom: 2%;
+	position: relative;
+	list-style: square;
+}
+}
+@media screen and (min-width: 1900px){
+.dropdown{
+		top: 3.0vw;
+	}
+}
+@media screen and (min-width: 3000px){
+	.menu{
+		 font-size: 1.5vw;
+	}
+	
+	.menu li {
+		 padding: 20px 25px;
+		 margin-left:auto;
+		 margin-right: 30px;
+	}
+		kep{
+	position: relative;
+	min-width: 150px;
+	width: 150px;
+}	
+	.load img{
+		min-width: 8vw;
+		height: 6vw;
+		
+	}	
+	.logo {
+	 position: relative;
+	 font-size: 2vw;
+	 text-align: left;
+	 min-width: 400px;
+	}
+	.dropdown{
+		top: 2.5vw;
+	}
+	.dropdown li{
+		min-width: 1000px;
+	}
+	.container{
+	width: 15vw;
+	height: 12vw;
+	}
+}
+@media screen and (min-width: 4000px){
 	.dropdown{
 		top: 2.5vw;
 	}
 }
+@media screen and (min-width: 5000px){
+	.menu{
+		 font-size: 70px;
+	}
+	
+	.menu li {
+		 padding: 20px 25px;
+		 margin-left:auto;
+		 margin-right: 30px;
+	}
+		kep{
+	position: relative;
+	min-width: 150px;
+	width: 150px;
+}	
+	.load img{
+		min-width: 300px;
+		height: 280px;
+	}	
+	.logo {
+	 position: relative;
+	 font-size: 80px;
+	 text-align: left;
+	 min-width: 400px;
+	}
+	.dropdown{
+		top: 2vw;
+	}
+	
+}
 
-
+@media screen and (min-width: 5000px){
+	.dropdown{
+		top: 1.5vw;
+	}
+}
 * {
  box-sizing: border-box;
 
@@ -190,7 +425,6 @@ nav{
  
 }
 
-
 .dropdown {
 	/*#fff6*/
  background-color: #8fdfff;
@@ -204,19 +438,20 @@ nav{
  border-top-right-radius: 0px;
  animation: growDown 300ms ease-in-out forwards; 
  z-index: 3;
-
 }
 .dropdown li {
  margin-top: 5%;
- padding:5%;
- width: 100%;
- position: relative;
-
+ padding:10px;
+ width: 300px;
  text-align: center;
 }
 .dropdown li:hover {
  background: #4c9e9e;
  
+}
+.dropdownlist{
+
+	padding-bottom: 5%;
 }
 .contact:hover .dropdown {
  display: block;

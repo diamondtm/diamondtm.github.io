@@ -1,0 +1,195 @@
+
+* {
+ margin: 10;
+ padding: 10;
+ box-sizing: border-box;
+ 
+}
+.active{
+	background:#fff6;
+	border-radius: 30px;
+}
+body {
+ font-family: cursive;
+ background-color: green;
+}
+a {
+ text-decoration: none;
+ color: white;
+}
+li {
+ list-style: none;
+ 
+}
+/*Logo forgasa*/
+.load{
+	
+	animation: animate 13s alternate infinite;
+}
+	@keyframes animate{
+		0%{
+			transform:rotateY(0deg);
+		}
+		50%{
+			transform:rotateY(180deg);
+		}
+		100%{
+			transform:rotateY(0deg);
+		}
+	}
+	
+	@keyframes growDown {
+    0% {
+        transform: scaleY(0.3)
+    }
+    80% {
+
+        transform: scaleY(1.1)
+    }
+    100% {
+        transform: scaleY(1)
+    }
+}
+
+.kep{
+	position: relative;
+	min-width: 100px;
+	width: 100px;
+
+}	
+.logo {
+ position: relative;
+ font-size: 28px;
+ text-align: left;
+ min-width: 200px;
+ width: 200px;
+
+}
+
+/*Navigacio*/
+.menu .contact:hover{
+background-color: #fff6;
+border-bottom-left-radius: 0px;	
+border-bottom-right-radius: 0px;
+
+}
+
+nav{
+ justify-content: space-between;
+ background-color: #36c5ff;
+ color: #fff;
+ border-radius: 10px;
+ min-width: 900px;
+ height: 90px;
+}
+
+.menu {
+ position: relative;
+ display: flex;
+ gap: 1em;
+ font-size: 18px;
+ max-width: 1000px;
+
+ margin-left:auto;
+ margin-right:0px;
+}
+.menu li {
+ padding: 20px 25px;
+ margin-left:auto;
+ margin-right: 30px;
+}
+.menu li:hover {
+ background-color: #fff6;
+ border-radius: 30px;
+ transition: 1s ease;
+}
+
+/*Dropdown menuhoz a kodok*/
+.contact {
+ position: relative;
+ 
+}
+
+
+.dropdown {
+ background-color: #fff6;
+ padding: 0px;
+ position: absolute;
+ display: none;
+ border-radius: 8px;
+ right: 0px;
+ top: 65px;
+ border-top-left-radius: 0px;	
+ border-top-right-radius: 0px;
+ animation: growDown 300ms ease-in-out forwards 
+}
+.dropdown li {
+ margin-top: 10px;
+ padding:10px;
+ max-width: 160px;
+ text-align: center;
+}
+.dropdown li:hover {
+ background: #4c9e9e;
+ 
+}
+.contact:hover .dropdown {
+ display: block;
+}
+/*kartya forgatas*/
+/*kartya meretei*/
+.sorban {
+	margin-top: 5%;
+	display: flex;
+	
+	}
+.container {
+	position: relative;
+	width: 250px;
+	height: 200px;
+	padding-top: 10px;
+}
+/*elso es hatso resz*/
+.card{
+	
+	position: relative;
+	width: 250px;
+	height: 200px;
+	
+	transform-style: preserve-3d;
+	transition: all 0.5s ease;
+	
+}
+.card:hover {
+	transform: rotateY(180deg);
+}
+/*Elolap es hatlap*/
+.elolap{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	backface-visibility: hidden;
+	background-color: grey;
+	color: #333;
+	border-radius: 10px;
+}
+.hatlap{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	backface-visibility: hidden;
+	background-color: #F0FFFF;
+	color: #333;
+	transform: rotateY(180deg);
+	border-radius: 10px;
+}
+.space{
+	margin-left: 10px;
+	margin-right: 30px;
+}
+
+.hatlap table{
+text-align: center; 
+width: 100%; 
+height: 100%;
+}	
