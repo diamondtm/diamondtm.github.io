@@ -34,8 +34,20 @@ nav {
         width: 100%;
         bottom: 0px;
     }
+	.hatlap table{
+		font-size: 1.5vw;
+	}
 }
-
+@media screen and (min-width: 450px) {
+	.hatlap table{
+		font-size: 1.5vw;
+	}
+}
+@media screen and (min-width: 1290px){
+	.hatlap table{
+		font-size: 18px;
+	}
+}
 .load {
     animation: animate 8s alternate infinite;
 }
