@@ -34,12 +34,12 @@
   return new Promise(resolve => setTimeout(resolve, time));
 }
 
-var cards = document.querySelectorAll('.kartya');
+var cards = document.querySelectorAll('.card');
 
-[...cards].forEach((kartya)=>{
-  kartya.addEventListener( 'click', function() {
-    kartya.classList.toggle('hatlap');
-	delay(4000).then(() => kartya.classList.remove('hatlap'));
+[...cards].forEach((card)=>{
+  card.addEventListener( 'click', function() {
+    card.classList.toggle('hatlap');
+	delay(4000).then(() => card.classList.remove('hatlap'));
 	
   });
  
