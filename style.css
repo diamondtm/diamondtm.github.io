@@ -23,7 +23,11 @@ nav {
 }
 
 
-
+@media screen and (max-width: 350px) {
+    footer {
+        display:none;
+    }	
+}
 @media screen and (max-width: 450px) {
     .offcanvas.offcanvas-end {
         width: 50%;
@@ -32,6 +36,7 @@ nav {
         font-size: 2.5vw;
         position: absolute;
         width: 100%;
+		max-height: 50px;
         bottom: 0px;
     }
 	.hatlap table{
@@ -133,9 +138,12 @@ nav {
         height: 100%;
     }
 footer {
-    background-color: #36c5ff;
+    background-color: white;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+	position: absolute;
+	width: 100%;
+	bottom: 0px
 }
 
 .offcanvas.offcanvas-end {
