@@ -13,10 +13,6 @@ nav {
     width: 100%;
     min-width:350px;
 }
-.error {
-    color: red;
-    background: white;
-}
 .card {
     min-width: 190px;
 }
