@@ -1,3 +1,8 @@
+<?php
+session_start();
+include "database.php";
+if (isset($_SESSION['id']) && isset($_SESSION['name'])){
+?>
 <!doctype html>
 <html lang="hu">
 <head>
@@ -26,28 +31,32 @@
                 </div>
                 <div class="offcanvas-body">
                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-					<li class="nav-item dropdown">
+					
+						<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+						<li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> <i class="bi bi-person-fill"></i>Profil</a>
-								<ul class="dropdown-menu dropdown-menu-dark">
-									<li class="nav-item">
-								<a class="nav-link active" aria-current="page" href="login.php"><i class="bi bi-person-fill"></i> Bejelentkezés </a>
-								</li>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li>
+                                    <h3> Hello <?php echo $_SESSION['name']; ?>!</h3>
+                                </li>
                                 <li class="nav-item">
-									<a class="nav-link active" aria-current="page" href="signup.html"><i class="bi bi-person-fill"></i> Regisztráció </a>
+								<form action="logout.php" method="post">
+								<button>Kijelentkezés</button></form>
 								</li>
                             </ul>
                         </li>
+					</ul>
 						
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html"><i class="bi bi-car-front"></i> Járművek </a>
+                            <a class="nav-link" href="index.php"><i class="bi bi-car-front"></i> Járművek </a>
                         </li>
                         <li class="nav-item">
 
-                            <a class="nav-link active" aria-current="page" href="felszereltseg.html"><i class="bi bi-house-heart-fill"></i> Tuningok </a>
+                            <a class="nav-link active" aria-current="page" href="felszereltseg.php"><i class="bi bi-house-heart-fill"></i> Tuningok </a>
                         </li>
 						<li class="nav-item">
 
-                            <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-chat-dots"></i></i> Hozzászólások</br>(Be kell jelentkezni) </a>
+                            <a class="nav-link active" aria-current="page" href="comment.php"><i class="bi bi-chat-dots"></i></i> Hozzászólások </a>
                         </li>
                         
                         <li class="nav-item dropdown">
@@ -130,3 +139,9 @@
 </body>
 
 </html>
+<?php
+}else {
+	header("Location: login.php");
+	exit();
+}
+?>
